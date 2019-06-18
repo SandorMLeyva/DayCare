@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define( 'DB_NAME', 'i5543499_wp3' );
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define( 'DB_USER', 'i5543499_wp3' );
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define( 'DB_PASSWORD', 'P.n0TdDsMFmeXrnGqAs80' );
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -40,8 +40,8 @@ define('DB_COLLATE', '');
 define('FS_METHOD', 'direct'); 
 define( 'UPLOADS', '/wp-content/uploads' );
 
-define('WP_HOME','https://adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com');
-define('WP_SITEURL','https://adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com');
+define('WP_HOME','https://miamiadultdaycarecenter.com');
+define('WP_SITEURL','https://miamiadultdaycarecenter.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
