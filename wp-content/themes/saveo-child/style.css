@@ -1,0 +1,69 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Saveo Child
+ Theme URI:    http://saveo.ancorathemes.com/
+ Description:  Saveo - Fully Responsive and Mobile Friendly theme
+ Author:       AncoraThemes
+ Author URI:   http://ancorathemes.com/
+ Template:     saveo
+ Version:      1.0
+ Tags:         light, inheritable theme-options
+ Text Domain:  saveo
+*/
+
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* @font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica/Helvetica.eot');
+    src: url('fonts/Helvetica/Helvetica.eot?#iefix') format('embedded-opentype'),
+     url('fonts/Helvetica/Helvetica.woff2') format('woff2'),
+     url('fonts/Helvetica/Helvetica.woff') format('woff'),
+     url('fonts/Helvetica/Helvetica.ttf') format('truetype'),
+     url('fonts/Helvetica/Helvetica.svg#wf') format('svg');
+} */
+
+/*titulos*/
+@font-face {
+    font-family: 'Helvetica 37 Thin Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 37 Thin Condensed'), url('fonts/helvetica/HelveticaNeue-ThinCond.woff') format('woff');
+    }
+/*textos*/    
+    @font-face {
+        font-family: 'Helvetica 55 Roman';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Helvetica 55 Roman'), url('fonts/helvetica/HelveticaNeue-Roman.woff') format('woff');
+        }
+        
+
+    /*subtituloas*/
+    @font-face {
+        font-family: 'Helvetica 65 Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Helvetica 65 Medium'), url('fonts/helvetica/HelveticaNeue-Medium.woff') format('woff');
+        }
+
+  
+
+ /*Descomentar abajo para usar la fuente*/
+/* body, h1, h2, h3, h4, h5, h6{
+ font-family: "Helvetica 37 Thin Condensed" !important; 
+} */
+ body, h1, h2, h3, h4, h5, h6,p, span{
+ font-family: "Helvetica 55 Roman" !important; 
+
+} 
+/* span{
+    font-family: "Helvetica 65 Medium" !important; 
+
+} */
+/* .contacts_info{
+ font-family: "Helvetica 37 Thin Condensed" !important; 
+
+} */

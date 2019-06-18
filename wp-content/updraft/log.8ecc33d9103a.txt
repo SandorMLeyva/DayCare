@@ -1,0 +1,290 @@
+0000.000 (0) Opened log file at time: Thu, 16 May 2019 01:01:54 +0000 on https://adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.12 WP: 4.9.10 PHP: 7.2.11-2+ubuntu16.04.1+deb.sury.org+1 (apache2handler, Linux AdultDaycareCenterOfMiami-com 2.6.32-042stab134.8 #1 SMP Fri Dec 7 17:16:09 MSK 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1 WPLANG: es_ES Server: Apache/2.4.34 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 20.8M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.022 (0) Free space on disk containing Updraft's temporary directory: 7812.8 MB
+0000.034 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.069 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1557884102, seconds_ago=84412)
+0000.115 (0) Set semaphore last lock (fd) time to 2019-05-16 01:01:54
+0000.126 (0) Semaphore lock (fd) complete
+0000.158 (0) Backup run: resumption=0, nonce=8ecc33d9103a, file_nonce=8ecc33d9103a begun at=1557968514 (0s ago), job type=backup
+0000.178 (0) Scheduling a resumption (1) after 300 seconds (1557968814) in case this run gets aborted
+0000.237 (0) OpenVZ; reported memory: 768 MB (will not use BinZip)
+0000.248 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.258 (0) Creation of backups of directories: beginning
+0000.279 (0) No backup of plugins: excluded by user's options
+0000.289 (0) No backup of themes: excluded by user's options
+0000.299 (0) No backup of uploads: excluded by user's options
+0000.309 (0) No backup of others: excluded by user's options
+0000.350 (0) Saving backup status to database (elements: 0)
+0000.375 (0) Beginning creation of database dump (WordPress DB)
+0000.396 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.531 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1252 bytes total)
+0000.543 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.798 (0) Table wp_options: Total expected rows (approximate): 466
+0000.842 (0) Table wp_options: Total rows added: 468 in 0.03 seconds
+0000.867 (0) Table wp_options: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_options.table.gz - 80.6 KB)
+0000.915 (0) Table wp_users: Total expected rows (approximate): 4
+0000.928 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0000.939 (0) Table wp_users: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_users.table.gz - 0.7 KB)
+0000.972 (0) Table wp_usermeta: Total expected rows (approximate): 99
+0000.986 (0) Table wp_usermeta: Total rows added: 99 in 0.00 seconds
+0000.996 (0) Table wp_usermeta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_usermeta.table.gz - 2.9 KB)
+0001.028 (0) Table wp_commentmeta: Total expected rows (approximate): 6
+0001.040 (0) Table wp_commentmeta: Total rows added: 6 in 0.00 seconds
+0001.051 (0) Table wp_commentmeta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0001.085 (0) Table wp_comments: Total expected rows (approximate): 6
+0001.097 (0) Table wp_comments: Total rows added: 6 in 0.00 seconds
+0001.108 (0) Table wp_comments: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_comments.table.gz - 1 KB)
+0001.145 (0) Table wp_links: Total expected rows (approximate): 0
+0001.157 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0001.171 (0) Table wp_links: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_links.table.gz - 0.4 KB)
+0001.203 (0) Table wp_postmeta: Total expected rows (approximate): 4062
+0001.269 (0) Table wp_postmeta: Total rows added: 4226 in 0.06 seconds
+0001.281 (0) Table wp_postmeta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_postmeta.table.gz - 45.2 KB)
+0001.314 (0) Table wp_posts: Total expected rows (approximate): 809
+0001.467 (0) Table wp_posts: Total rows added: 856 in 0.14 seconds
+0001.479 (0) Table wp_posts: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_posts.table.gz - 208.5 KB)
+0001.535 (0) Table wp_term_relationships: Total expected rows (approximate): 169
+0001.548 (0) Table wp_term_relationships: Total rows added: 168 in 0.00 seconds
+0001.559 (0) Table wp_term_relationships: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_term_relationships.table.gz - 0.8 KB)
+0001.591 (0) Table wp_term_taxonomy: Total expected rows (approximate): 54
+0001.604 (0) Table wp_term_taxonomy: Total rows added: 54 in 0.00 seconds
+0001.614 (0) Table wp_term_taxonomy: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_term_taxonomy.table.gz - 0.8 KB)
+0001.645 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0001.656 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0001.667 (0) Table wp_termmeta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_termmeta.table.gz - 0.4 KB)
+0001.700 (0) Table wp_terms: Total expected rows (approximate): 54
+0001.712 (0) Table wp_terms: Total rows added: 54 in 0.00 seconds
+0001.724 (0) Table wp_terms: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_terms.table.gz - 1.1 KB)
+0001.756 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 53
+0001.768 (0) Table wp_yoast_seo_links: Total rows added: 53 in 0.00 seconds
+0001.779 (0) Table wp_yoast_seo_links: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_yoast_seo_links.table.gz - 1.2 KB)
+0001.811 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 194
+0001.825 (0) Table wp_yoast_seo_meta: Total rows added: 194 in 0.00 seconds
+0001.836 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_yoast_seo_meta.table.gz - 0.8 KB)
+0001.868 (0) Table wp_404_to_301: Total expected rows (approximate): 1
+0001.881 (0) Table wp_404_to_301: Total rows added: 1 in 0.00 seconds
+0001.891 (0) Table wp_404_to_301: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_404_to_301.table.gz - 0.5 KB)
+0001.923 (0) Table wp_db7_forms: Total expected rows (approximate): 7
+0001.936 (0) Table wp_db7_forms: Total rows added: 7 in 0.00 seconds
+0001.946 (0) Table wp_db7_forms: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_db7_forms.table.gz - 0.8 KB)
+0001.979 (0) Table wp_eg_grids: Total expected rows (approximate): 3
+0001.991 (0) Table wp_eg_grids: Total rows added: 3 in 0.00 seconds
+0002.002 (0) Table wp_eg_grids: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_grids.table.gz - 2.4 KB)
+0002.034 (0) Table wp_eg_item_elements: Total expected rows (approximate): 0
+0002.046 (0) Table wp_eg_item_elements: Total rows added: 0 in 0.00 seconds
+0002.056 (0) Table wp_eg_item_elements: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_item_elements.table.gz - 0.3 KB)
+0002.089 (0) Table wp_eg_item_skins: Total expected rows (approximate): 124
+0002.137 (0) Table wp_eg_item_skins: Total rows added: 150 in 0.04 seconds
+0002.151 (0) Table wp_eg_item_skins: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_item_skins.table.gz - 62.5 KB)
+0002.184 (0) Table wp_eg_navigation_skins: Total expected rows (approximate): 24
+0002.199 (0) Table wp_eg_navigation_skins: Total rows added: 24 in 0.00 seconds
+0002.210 (0) Table wp_eg_navigation_skins: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_navigation_skins.table.gz - 7.3 KB)
+0002.242 (0) Table wp_ig_blocked_emails: Total expected rows (approximate): 0
+0002.254 (0) Table wp_ig_blocked_emails: Total rows added: 0 in 0.00 seconds
+0002.264 (0) Table wp_ig_blocked_emails: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_blocked_emails.table.gz - 0.3 KB)
+0002.297 (0) Table wp_ig_campaigns: Total expected rows (approximate): 3
+0002.309 (0) Table wp_ig_campaigns: Total rows added: 3 in 0.00 seconds
+0002.320 (0) Table wp_ig_campaigns: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_campaigns.table.gz - 0.8 KB)
+0002.352 (0) Table wp_ig_contacts: Total expected rows (approximate): 3
+0002.365 (0) Table wp_ig_contacts: Total rows added: 3 in 0.00 seconds
+0002.376 (0) Table wp_ig_contacts: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_contacts.table.gz - 0.7 KB)
+0002.408 (0) Table wp_ig_contacts_ips: Total expected rows (approximate): 0
+0002.421 (0) Table wp_ig_contacts_ips: Total rows added: 0 in 0.00 seconds
+0002.431 (0) Table wp_ig_contacts_ips: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_contacts_ips.table.gz - 0.3 KB)
+0002.464 (0) Table wp_ig_forms: Total expected rows (approximate): 0
+0002.476 (0) Table wp_ig_forms: Total rows added: 1 in 0.00 seconds
+0002.490 (0) Table wp_ig_forms: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_forms.table.gz - 0.7 KB)
+0002.536 (0) Table wp_ig_lists: Total expected rows (approximate): 0
+0002.547 (0) Table wp_ig_lists: Total rows added: 1 in 0.00 seconds
+0002.563 (0) Table wp_ig_lists: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_lists.table.gz - 0.4 KB)
+0002.597 (0) Table wp_ig_lists_contacts: Total expected rows (approximate): 3
+0002.609 (0) Table wp_ig_lists_contacts: Total rows added: 3 in 0.00 seconds
+0002.620 (0) Table wp_ig_lists_contacts: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_lists_contacts.table.gz - 0.5 KB)
+0002.652 (0) Table wp_ig_mailing_queue: Total expected rows (approximate): 3
+0002.667 (0) Table wp_ig_mailing_queue: Total rows added: 3 in 0.00 seconds
+0002.678 (0) Table wp_ig_mailing_queue: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_mailing_queue.table.gz - 1.6 KB)
+0002.710 (0) Table wp_ig_sending_queue: Total expected rows (approximate): 3
+0002.723 (0) Table wp_ig_sending_queue: Total rows added: 3 in 0.00 seconds
+0002.734 (0) Table wp_ig_sending_queue: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_sending_queue.table.gz - 0.6 KB)
+0002.772 (0) Table wp_loginizer_logs: Total expected rows (approximate): 0
+0002.785 (0) Table wp_loginizer_logs: Total rows added: 0 in 0.00 seconds
+0002.796 (0) Table wp_loginizer_logs: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_loginizer_logs.table.gz - 0.3 KB)
+0002.829 (0) Table wp_ngg_album: Total expected rows (approximate): 0
+0002.841 (0) Table wp_ngg_album: Total rows added: 0 in 0.00 seconds
+0002.852 (0) Table wp_ngg_album: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_album.table.gz - 0.4 KB)
+0002.885 (0) Table wp_ngg_gallery: Total expected rows (approximate): 1
+0002.896 (0) Table wp_ngg_gallery: Total rows added: 2 in 0.00 seconds
+0002.907 (0) Table wp_ngg_gallery: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_gallery.table.gz - 0.5 KB)
+0002.943 (0) Table wp_ngg_pictures: Total expected rows (approximate): 20
+0002.956 (0) Table wp_ngg_pictures: Total rows added: 20 in 0.00 seconds
+0002.967 (0) Table wp_ngg_pictures: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_pictures.table.gz - 4.9 KB)
+0003.000 (0) Table wp_revslider_css: Total expected rows (approximate): 112
+0003.015 (0) Table wp_revslider_css: Total rows added: 112 in 0.00 seconds
+0003.025 (0) Table wp_revslider_css: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_css.table.gz - 5 KB)
+0003.057 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0003.069 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0003.079 (0) Table wp_revslider_layer_animations: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0003.111 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0003.122 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0003.133 (0) Table wp_revslider_navigations: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0003.165 (0) Table wp_revslider_sliders: Total expected rows (approximate): 2
+0003.177 (0) Table wp_revslider_sliders: Total rows added: 2 in 0.00 seconds
+0003.188 (0) Table wp_revslider_sliders: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_sliders.table.gz - 3.4 KB)
+0003.222 (0) Table wp_revslider_slides: Total expected rows (approximate): 2
+0003.237 (0) Table wp_revslider_slides: Total rows added: 2 in 0.00 seconds
+0003.249 (0) Table wp_revslider_slides: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_slides.table.gz - 3.4 KB)
+0003.292 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0003.304 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0003.315 (0) Table wp_revslider_static_slides: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0003.349 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0003.361 (0) Table wp_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0003.372 (0) Table wp_smush_dir_images: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+0003.407 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0003.419 (0) Table wp_tm_taskmeta: Total rows added: 0 in 0.00 seconds
+0003.429 (0) Table wp_tm_taskmeta: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_tm_taskmeta.table.gz - 0.4 KB)
+0003.462 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0003.474 (0) Table wp_tm_tasks: Total rows added: 0 in 0.00 seconds
+0003.485 (0) Table wp_tm_tasks: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_tm_tasks.table.gz - 0.4 KB)
+0003.522 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0003.534 (0) Table wp_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0003.545 (0) Table wp_wfblockediplog: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0003.577 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0003.589 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0003.600 (0) Table wp_wfblocks7: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0003.632 (0) Table wp_wfconfig: Total expected rows (approximate): 234
+0003.647 (0) Table wp_wfconfig: Total rows added: 234 in 0.00 seconds
+0003.658 (0) Table wp_wfconfig: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfconfig.table.gz - 10.1 KB)
+0003.690 (0) Table wp_wfcrawlers: Total expected rows (approximate): 6
+0003.704 (0) Table wp_wfcrawlers: Total rows added: 6 in 0.00 seconds
+0003.715 (0) Table wp_wfcrawlers: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfcrawlers.table.gz - 0.5 KB)
+0003.747 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0003.759 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0003.769 (0) Table wp_wffilechanges: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0003.802 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0003.814 (0) Table wp_wffilemods: Total rows added: 0 in 0.00 seconds
+0003.825 (0) Table wp_wffilemods: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wffilemods.table.gz - 0.4 KB)
+0003.860 (0) Table wp_wfhits: Total expected rows (approximate): 3
+0003.873 (0) Table wp_wfhits: Total rows added: 3 in 0.00 seconds
+0003.884 (0) Table wp_wfhits: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfhits.table.gz - 0.8 KB)
+0003.917 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0003.929 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0003.940 (0) Table wp_wfhoover: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0003.974 (0) Table wp_wfissues: Total expected rows (approximate): 2
+0003.987 (0) Table wp_wfissues: Total rows added: 2 in 0.00 seconds
+0003.997 (0) Table wp_wfissues: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfissues.table.gz - 1.1 KB)
+0004.034 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 0
+0004.046 (0) Table wp_wfknownfilelist: Total rows added: 0 in 0.00 seconds
+0004.057 (0) Table wp_wfknownfilelist: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfknownfilelist.table.gz - 0.3 KB)
+0004.094 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0004.106 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0004.117 (0) Table wp_wflivetraffichuman: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0004.149 (0) Table wp_wflocs: Total expected rows (approximate): 2
+0004.162 (0) Table wp_wflocs: Total rows added: 2 in 0.00 seconds
+0004.172 (0) Table wp_wflocs: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflocs.table.gz - 0.5 KB)
+0004.206 (0) Table wp_wflogins: Total expected rows (approximate): 3
+0004.219 (0) Table wp_wflogins: Total rows added: 3 in 0.00 seconds
+0004.229 (0) Table wp_wflogins: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflogins.table.gz - 0.6 KB)
+0004.262 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0004.275 (0) Table wp_wfnotifications: Total rows added: 2 in 0.00 seconds
+0004.286 (0) Table wp_wfnotifications: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfnotifications.table.gz - 0.6 KB)
+0004.319 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0004.331 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0004.341 (0) Table wp_wfpendingissues: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0004.374 (0) Table wp_wfreversecache: Total expected rows (approximate): 8
+0004.386 (0) Table wp_wfreversecache: Total rows added: 8 in 0.00 seconds
+0004.397 (0) Table wp_wfreversecache: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfreversecache.table.gz - 0.5 KB)
+0004.429 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0004.441 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0004.451 (0) Table wp_wfsnipcache: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0004.482 (0) Table wp_wfstatus: Total expected rows (approximate): 20
+0004.497 (0) Table wp_wfstatus: Total rows added: 20 in 0.00 seconds
+0004.514 (0) Table wp_wfstatus: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfstatus.table.gz - 0.8 KB)
+0004.550 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0004.561 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0004.571 (0) Table wp_wftrafficrates: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0004.603 (0) Table wp_wpgdprc_consents: Total expected rows (approximate): 0
+0004.615 (0) Table wp_wpgdprc_consents: Total rows added: 0 in 0.00 seconds
+0004.626 (0) Table wp_wpgdprc_consents: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wpgdprc_consents.table.gz - 0.5 KB)
+0004.658 (0) Table wp_wpgdprc_log: Total expected rows (approximate): 0
+0004.669 (0) Table wp_wpgdprc_log: Total rows added: 0 in 0.00 seconds
+0004.680 (0) Table wp_wpgdprc_log: finishing file (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wpgdprc_log.table.gz - 0.4 KB)
+0004.712 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_options.table.gz (1/63): adding to final database dump
+0004.746 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_users.table.gz (2/63): adding to final database dump
+0004.757 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_usermeta.table.gz (3/63): adding to final database dump
+0004.768 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_commentmeta.table.gz (4/63): adding to final database dump
+0004.779 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_comments.table.gz (5/63): adding to final database dump
+0004.790 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_links.table.gz (6/63): adding to final database dump
+0004.801 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_postmeta.table.gz (7/63): adding to final database dump
+0004.828 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_posts.table.gz (8/63): adding to final database dump
+0004.939 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_term_relationships.table.gz (9/63): adding to final database dump
+0004.952 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_term_taxonomy.table.gz (10/63): adding to final database dump
+0004.963 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_termmeta.table.gz (11/63): adding to final database dump
+0004.975 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_terms.table.gz (12/63): adding to final database dump
+0004.986 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_yoast_seo_links.table.gz (13/63): adding to final database dump
+0004.996 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_yoast_seo_meta.table.gz (14/63): adding to final database dump
+0005.008 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_404_to_301.table.gz (15/63): adding to final database dump
+0005.018 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_db7_forms.table.gz (16/63): adding to final database dump
+0005.029 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_grids.table.gz (17/63): adding to final database dump
+0005.041 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_item_elements.table.gz (18/63): adding to final database dump
+0005.051 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_item_skins.table.gz (19/63): adding to final database dump
+0005.099 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_eg_navigation_skins.table.gz (20/63): adding to final database dump
+0005.112 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_blocked_emails.table.gz (21/63): adding to final database dump
+0005.124 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_campaigns.table.gz (22/63): adding to final database dump
+0005.135 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_contacts.table.gz (23/63): adding to final database dump
+0005.145 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_contacts_ips.table.gz (24/63): adding to final database dump
+0005.156 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_forms.table.gz (25/63): adding to final database dump
+0005.166 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_lists.table.gz (26/63): adding to final database dump
+0005.177 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_lists_contacts.table.gz (27/63): adding to final database dump
+0005.187 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_mailing_queue.table.gz (28/63): adding to final database dump
+0005.198 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ig_sending_queue.table.gz (29/63): adding to final database dump
+0005.209 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_loginizer_logs.table.gz (30/63): adding to final database dump
+0005.220 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_album.table.gz (31/63): adding to final database dump
+0005.230 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_gallery.table.gz (32/63): adding to final database dump
+0005.242 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_ngg_pictures.table.gz (33/63): adding to final database dump
+0005.254 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_css.table.gz (34/63): adding to final database dump
+0005.267 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_layer_animations.table.gz (35/63): adding to final database dump
+0005.277 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_navigations.table.gz (36/63): adding to final database dump
+0005.288 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_sliders.table.gz (37/63): adding to final database dump
+0005.299 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_slides.table.gz (38/63): adding to final database dump
+0005.310 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_revslider_static_slides.table.gz (39/63): adding to final database dump
+0005.320 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_smush_dir_images.table.gz (40/63): adding to final database dump
+0005.331 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_tm_taskmeta.table.gz (41/63): adding to final database dump
+0005.342 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_tm_tasks.table.gz (42/63): adding to final database dump
+0005.353 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfblockediplog.table.gz (43/63): adding to final database dump
+0005.364 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfblocks7.table.gz (44/63): adding to final database dump
+0005.374 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfconfig.table.gz (45/63): adding to final database dump
+0005.388 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfcrawlers.table.gz (46/63): adding to final database dump
+0005.400 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wffilechanges.table.gz (47/63): adding to final database dump
+0005.411 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wffilemods.table.gz (48/63): adding to final database dump
+0005.426 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfhits.table.gz (49/63): adding to final database dump
+0005.437 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfhoover.table.gz (50/63): adding to final database dump
+0005.447 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfissues.table.gz (51/63): adding to final database dump
+0005.458 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfknownfilelist.table.gz (52/63): adding to final database dump
+0005.469 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflivetraffichuman.table.gz (53/63): adding to final database dump
+0005.480 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflocs.table.gz (54/63): adding to final database dump
+0005.490 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wflogins.table.gz (55/63): adding to final database dump
+0005.501 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfnotifications.table.gz (56/63): adding to final database dump
+0005.511 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfpendingissues.table.gz (57/63): adding to final database dump
+0005.522 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfreversecache.table.gz (58/63): adding to final database dump
+0005.532 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfsnipcache.table.gz (59/63): adding to final database dump
+0005.543 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wfstatus.table.gz (60/63): adding to final database dump
+0005.553 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wftrafficrates.table.gz (61/63): adding to final database dump
+0005.564 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wpgdprc_consents.table.gz (62/63): adding to final database dump
+0005.575 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db-table-wp_wpgdprc_log.table.gz (63/63): adding to final database dump
+0005.587 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db.gz: finished writing out complete database file (440 KB)
+0005.641 (0) Total database tables backed up: 63 (backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db.gz, size: 459470, sha256)
+0005.690 (0) backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.700 (0) Saving backup history. Total backup size: 448.7 KB
+0005.725 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0005.756 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0005.767 (0) No remote despatch: user chose no remote backup service
+0005.778 (0) Recording as successfully uploaded: backup_2019-05-16-0101_Adult_Daycare_Center_Of_Miami_8ecc33d9103a-db.gz
+0005.800 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0005.811 (0) Resume backup (8ecc33d9103a, 0): finish run
+0005.842 (0) Decremented the semaphore (fd) by 1
+0005.863 (0) Semaphore (fd) unlocked
+0005.873 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.906 (0) The backup apparently succeeded and is now complete
+0005.916 (0) No email will/can be sent - the user has not configured an email address.
+0005.927 (0) El respaldo parece haber tenido éxito y ahora está completado

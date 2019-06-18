@@ -1,0 +1,256 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.textus {
+    animation-name: textus_widget;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    top: 360px;
+    background-color:#2379ef!important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #fff;
+    float: left;
+    height: auto;
+    margin-left: -65px;
+    position: fixed;
+    transform: rotate(90deg);
+    width: auto;
+    z-index: 5000;
+    text-transform: uppercase;
+}
+.form_text_us{
+    top: 130px ;display: inline-block;
+    display: none;
+}
+
+.textus:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    opacity: 1;
+}
+
+.textus h3 {
+    color: #fff!important;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    padding: 0 20px;
+    text-transform: uppercase;
+	font-family: Rubik, Helvetica, Arial, sans-serif;
+}
+
+.textusform {
+    position: absolute;
+}
+
+#box-contact {
+    top: 140px!important;
+    position: fixed;
+    z-index: 5000;
+    height: auto;
+    float: left;
+    background-color: #23bbea;
+    color: #FFF;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  padding-left:20px;
+  padding-right:20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 320px;
+}
+
+/*#box-contact #text-3{
+    padding-top: 15px!important;
+}
+
+#box-contact input[type="submit"]:hover{
+    color: #333;
+    background-color: #fdd14c !important;
+    border-color: #fdd14c;
+}*/
+
+/*
+#box-contact input[type="button"]{
+    background-color: #fff;
+    text-decoration: none;    
+   /* border-width: 1px 1px 1px 1px;
+    border-color: #696969;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    transition: all 1s;
+  	color:#fff!important; 
+  	width: 150px!important;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid!important;  
+  	
+}*/
+#box-contact input[type="submit"]{
+    transition:all 1s;
+}
+#box-contact input[type="submit"]:hover{
+		opacity:1!important;
+    color:#fff ;
+    text-decoration: none;
+  border-style: solid;
+  border-color:transparent!important;
+    border-width: 1px 1px 1px 1px;
+ 
+    transition: all 1s;    
+  	background-color:#277bf0!important;
+
+
+}
+
+
+
+
+#box-contact .wpcf7 .ajax-loader {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgIGhlaWdodD0iMjBweCIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0ibGRzLXJvbGxpbmciPiAgICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiBmaWxsPSJub25lIiBuZy1hdHRyLXN0cm9rZT0ie3tjb25maWcuY29sb3J9fSIgbmctYXR0ci1zdHJva2Utd2lkdGg9Int7Y29uZmlnLndpZHRofX0iIG5nLWF0dHItcj0ie3tjb25maWcucmFkaXVzfX0iIG5nLWF0dHItc3Ryb2tlLWRhc2hhcnJheT0ie3tjb25maWcuZGFzaGFycmF5fX0iIHN0cm9rZT0iIzFlMWQyNCIgc3Ryb2tlLXdpZHRoPSIyMCIgcj0iMzUiIHN0cm9rZS1kYXNoYXJyYXk9IjE2NC45MzM2MTQzMTM0NjQxNSA1Ni45Nzc4NzE0Mzc4MjEzOCI+ICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJsaW5lYXIiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMC45cyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlVHJhbnNmb3JtPiAgICA8L2NpcmNsZT4gIDwvc3ZnPg==);
+}
+
+#box-contact .cerrar{
+    left: 50%!important;
+    position: relative;
+}
+#box-contact .cerrar:hover{
+    cursor: pointer;
+    transition: all 1s;
+    color: black!important;
+}
+
+.textus-form p.terms {
+    color: #444;
+    font-size: 0.7em;
+    line-height: 12px;
+    margin: 0 16px 10px;
+    text-align: justify;
+}
+.terms a{
+    color: #fff;
+}
+.terms a:hover{
+    color: #fff!important;
+    opacity: .5;
+}
+
+p.terms {
+    color: #fff;
+    font-size: 0.7em !important;
+    line-height: 12px;
+    margin:20px 16px 10px;
+    text-align: justify;
+    font-weight: 900;
+}
+
+#box-contact .widget-title{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+
+#box-contact input[type="text"], #box-contact input[type="email"], #box-contact input[type="url"], #box-contact input[type="password"], #box-contact input[type="search"], #box-contact input[type="number"], #box-contact input[type="tel"], #box-contact input[type="range"], #box-contact input[type="date"], #box-contact input[type="month"], #box-contact input[type="week"], #box-contact input[type="time"], #box-contact input[type="datetime"], #box-contact input[type="datetime-local"], #box-contact input[type="color"], #box-contact select, #box-contact textarea, .wpcf7 .wpcf7-form-control-wrap[class*="file-"]{
+    background-color: transparent;
+  color: #fff!imporant;
+}
+
+
+@keyframes textus_widget {
+    0% {
+        background-color: #23bbea;
+        color: #333;
+    }
+    50% {
+       background-color: rgba(0, 0, 0,.8);
+        color: #333;
+    }
+    100% {
+        background-color:#b0d841 ;
+        color: #fff;
+    }
+}
+
+#box-contact input::placeholder, textarea::placeholder {
+	
+  	opacity:.8;
+    color: #fff!important;
+
+}
+#box-contact textarea{
+  	
+    color: #fff!important;
+
+}
+#box-contact input[type="text"], #box-contact textarea,#box-contact .textarea, #box-contact input[type="password"], #box-contact .wpcf7-form-control.wpcf7-date,#box-contact .wpcf7-form-control.wpcf7-number,#box-contact .wpcf7-form-control.wpcf7-quiz,#box-contact .wpcf7-form-control.wpcf7-select,#box-contact .wpcf7-form-control.wpcf7-text,#box-contact .wpcf7-form-control.wpcf7-textarea,#box-contact input[type="text"],#box-contact input[type="email"],#box-contact input[type="password"] {
+
+    width: 100%;
+    margin: 0 0 20px;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    font-family: inherit;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: .2em;
+    font-weight: 400;
+    color: #fff!important;
+    background-color: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #ededed;
+    border-radius: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    cursor: text;
+    box-sizing: border-box;
+    -webkit-transition: border-color .2s ease-in-out;
+    -moz-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+
+}
+
+#box-contact textarea{  	
+  color: #fff!important;
+  max-width:100%!important;     
+  min-height: 80px!important;
+  max-height: 100px!important;
+  min-width: 100% !important;
+}
+
+#box-contact input[type=submit]{
+       background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    border: solid;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-right: auto;
+    display: inline-block;
+    width: 150px;
+
+}
+
+/*End Text Us*/
+
+</style>
+<!-- end Simple Custom CSS and JS -->

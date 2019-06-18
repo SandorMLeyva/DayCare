@@ -1,0 +1,19 @@
+@charset 'utf-8';
+    @font-face {
+font-family: 'Helvetica 37 Thin Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 37 Thin Condensed'), url(//adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com/wp-content/themes/saveo-child/fonts/helvetica/HelveticaNeue-ThinCond.woff) format('woff');
+} @font-face {
+font-family: 'Helvetica 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 55 Roman'), url(//adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com/wp-content/themes/saveo-child/fonts/helvetica/HelveticaNeue-Roman.woff) format('woff');
+} @font-face {
+font-family: 'Helvetica 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 65 Medium'), url(//adultdaycarecenterofmiami-com-qualgrow427463.codeanyapp.com/wp-content/themes/saveo-child/fonts/helvetica/HelveticaNeue-Medium.woff) format('woff');
+}  body, h1, h2, h3, h4, h5, h6,p, span{
+font-family: "Helvetica 55 Roman" !important; 
+}
